@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #b2004c;
+}
+
+body {
+  background-image: url('image4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+</head>
+<body>
+<ul>
+    <li><a href="Biodata.html">Home</a></li>
+    <li><a href="hobbies.html">Hobbies</a></li>
+    <li><a class="active" href="campuslife.html">Campus Life</a></li>
+  </ul>
+
+   <marquee height="100" hspace="50" style="color: rgb(5, 5, 5);">
+    <font size="50" face="Forte"><i>My Sweet Memories of UTHM Campus &#128525;</i></font>
+  </marquee>
+
+
+<div class="scroll-container">
+  <img src="birthday.jpg" width="450" height="450">
+  <img src="birthday8.jpg" width="450" height="450">
+  <img src="birthday3.jpg" width="550" height="450">
+  <img src="birthday4.jpg" width="550" height="450">
+  <img src="birthday5.jpg" width="500" height="450">
+  <img src="birthday6.jpg" width="500" height="450">
+  <img src="birthday7.jpg" width="500" height="450">
+  <img src="birthday2.jpg" width="500" height="450">
+  <img src="birthday9.jpg" width="500" height="450">
+</div>
+
+</body>
+</html>
